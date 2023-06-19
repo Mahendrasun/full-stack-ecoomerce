@@ -9,5 +9,5 @@
 		  </li>
 		</ul>
     </div>
-	  &copy; 2020 <a href="#">ECommerce</a>. All Rights Reserved.
+	  &copy; 2023 <a href="#">ECommerce</a>. All Rights Reserved.
   </footer>
