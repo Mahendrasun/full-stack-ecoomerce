@@ -188,4 +188,11 @@ public function SubSubCategoryDelete($id){
         return redirect()->route('all.sub.subcategory')->with($notification);
 }
 
+public function GetSubSubCategoty($subcategory_id){
+    $sucsubCat = SubSubCategory::where('subcategory_id',$subcategory_id)->orderBy('subsubcategory_name_en','ASC')->get();
+
+    return json_encode($sucsubCat);
+}
+
+
 }
